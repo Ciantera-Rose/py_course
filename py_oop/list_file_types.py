@@ -18,3 +18,7 @@ file_builder.write("Hey, I'm in a file!")
 
 file_builder.close() 
 
+#ie. Compression : Use case
+#Making files smaller so you can use them
+#Looking for patterns you can chop down to a key
+#ie. Writing a compression algorithm, for backend code or scrapping data
