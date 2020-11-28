@@ -16,7 +16,10 @@ google = Invoice('Google', 100)
 
 print(google.client)
 
-google.client = 'Yahoo'
+google.client = 'Yahoo' 
+#We can set values after we have created the entire object.
+#A setter process that allows us to override the original value
+#So we can use getters and setters without having to create the functions inside of python 
 
 print(google.client)
 print(google.total)

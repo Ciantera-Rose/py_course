@@ -1,6 +1,6 @@
 #Guide to Python's __init__ Constructor Function
 
-git#Notes
+#Notes
 
 #Classes are made up of data and behavior
 #Contructor Function: Use dunder __inti__ method
@@ -8,6 +8,8 @@ git#Notes
 #It will add the data into the class
 #Remeber every method inside of a class needs self passed into it as an argument
 #Everything in Python is an object. So we are creating variables that are directly related to the instance
+#Init is a special reserved function in Python available to classes
+
 
 class Invoice:
     def __init__(self, client, total):

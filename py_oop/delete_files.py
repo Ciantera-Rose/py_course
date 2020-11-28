@@ -5,3 +5,5 @@ import os #operating system module. Allows to interact with whatever operating s
 os.remove("file-section/file_to_be_deleted.txt") #Call file script from root of program
 
 print("File Removed!")
+
+#Create Read Update Delete CRUD
