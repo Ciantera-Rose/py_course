@@ -23,4 +23,10 @@ inv_one = Invoice()
 #This takes the blueprint (class). By itself it does nothing.
 #We created an instance of invoice and then called the function
 #A default argument must be passed into a class, called self. Self references the instance.
-#In each case it references each of the objects created. Self must be passed as the first argument 
+#In each case it references each of the objects created. Self must be passed as the first argument
+
+'''
+The self is a keyword used to represent the instance of a class. 
+It allows us to access the attributes and methods of the Python class. 
+It binds the attributes with the given arguments.
+'''

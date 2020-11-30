@@ -27,3 +27,13 @@ class Invoice:
 
 inv = Invoice('Google', 500)
 print(str(inv))
+
+'''
+The dunder method(s) are given to us by the Python language and 
+how Python implements operators on classes. Each method has their 
+own specific method that may be used with classes. You can customize 
+how the class responds to a number of built in functions. The dunder 
+method uses two underscores followed by a method and then two more 
+underscores.
+
+'''

@@ -34,3 +34,11 @@ for tag in tags:
 
 for tag in tags:
     print(tag.render())    
+
+'''
+Polymorphism defines methods in the child class that have the same names
+as the methods from the parent class. In inheritance, the child class inherits 
+the methods from the parent class. It is also possible to modify a method in a child 
+class that it has inherited from the parent class
+
+'''

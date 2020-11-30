@@ -26,3 +26,10 @@ snapchat = Invoice('SnapChat', 200)
 
 print(google.formatter())
 print(snapchat.formatter())
+
+'''
+__init__ is a reserved method for python classes. 
+This method is called when an object is created from a class
+and it allows the class to initialize the attributes of the class.
+
+'''

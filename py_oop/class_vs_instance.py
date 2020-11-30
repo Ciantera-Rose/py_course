@@ -23,3 +23,12 @@ print(dw.title)
 
 dw_two = DifferentWebsite()
 print(dw_two.title)
+
+'''
+Class instantiation uses function notation. The instantiation operation 
+(“calling” a class object) creates an empty object. Allows for a class to 
+create an object customized to a specific initial state. When a class defines 
+an init method, class instantiation automatically invokes __init__() for the newly c
+`reated class instance.
+
+'''

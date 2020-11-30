@@ -6,7 +6,7 @@
 #Private attribute will use two underscores meaning it shouldn't chnaged in other places throughout the document
 #These are indications about how we want to use the data
 #Syntactic sugar that takes in a function and passes a an argument
-
+#Gives a clear distinction in your of how you want to call on your objects
 
 class Invoice:
 
@@ -16,12 +16,13 @@ class Invoice:
 
     def formatter(self):
         return f'{self._client} owes: ${self._total}'
+        print(google.formatter)
         print(goole.property)
 
     @property
     def client(self):
         return self._client
-#Used property decorator to directly call on client
+#Used property decorator to directly call on client (property) that we want to work with
 # _ communites that these objects should only be called within this class
 
     @client.setter
@@ -43,3 +44,12 @@ print(google.total)
 google.client = 'Yahoo'
 
 print(google.client)
+
+'''
+A decorator is any callable object that is used to modify a function or a class.
+A reference to a function "func" or a class "C" is passed to a decorator and the 
+decorator returns a modified function or class. Syntactic sugar that takes in a 
+function and passes an argument, gives a clear distinction in your code of how you 
+want to call on and work with your objects. Whubbaa dub!
+
+'''

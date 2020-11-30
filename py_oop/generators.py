@@ -1,5 +1,6 @@
 #Overview of Iterators vs Generators in Python
 #A generator allows you to yield an iteration to a particiluar method until you call it again
+#It is a simple way of creating iterators. It is a function that returns an object (iterator) which we can iterate over (one value at a time). 
 
 
 class InfiniteLineup:

@@ -1,5 +1,6 @@
 #Introduction to Inheritance in Python
 #At a high level inheritance is the ability to create specialized versions of classes.
+#It allows us to define a class that inherits all the methods and properties from another class. 
 
 
 class User:
