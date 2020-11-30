@@ -66,14 +66,14 @@ while bank_session:
   i = int(input(" 1: CHECK BALANCE \n 2: DEPOSIT MONEY \n 3: WITHDRAW \n 4: EXIT \n\n ENTER: "))
   os.system('clear')
   if i == 1:
-    obj.check_balance();
-    obj.transaction();
+    obj.check_balance()
+    obj.transaction()
   elif i == 2:
-    obj.deposit();
-    obj.transaction();
+    obj.deposit()
+    obj.transaction()
   elif i == 3:
-    obj.withdraw();
-    obj.transaction();
+    obj.withdraw()
+    obj.transaction()
   elif i == 4:
     print(f"Thank you for being a valued customer!\nPlease take your card.")
   else:
